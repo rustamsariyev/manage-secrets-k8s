@@ -16,6 +16,18 @@ helm search repo external-secrets/external-secrets
 helm upgrade --install external-secrets external-secrets/external-secrets --version 0.8.1 -n external-secrets --create-namespace
 ```
 
+# Created 
+AWS Secrets Manager
+
+- Secret key: db_password
+- Secret value: DemoPasswordFromSecretManager
+
+AWS Parameter Store and 
+
+- Name: /demo/db_password
+- Value: DemoPasswordFromParameterStore
+
+
 # Deploy demo  External Secrets to EKS clusters.
 Create ServiceAccount with "IRSA" role.
 ```
@@ -34,7 +46,7 @@ Deploy "ClusterSecretStore" with AWS Parameter Store Provider.
  kubectl apply -f css-parameter-store.yaml
 ```
 
-Deploy "ExternalSecret" with AWS Parameter Store Provider. 
+Deploy "ExternalSecret". 
 ```
  kubectl apply -f external-secret.yaml
 ```
