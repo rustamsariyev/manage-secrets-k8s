@@ -15,4 +15,4 @@ Provide one or two options for how would you propose them to change how they sav
 - [SealedSecret](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/sealed-secrets/README.md)
 - [SOPS](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/sops/README.md)
 - [Kamus](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/kamus/README.md)
-- [Tesoro](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
+- [Tesoro](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/tesoro/README.md)
