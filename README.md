@@ -10,9 +10,9 @@ Please also note that they have a small team and their capacity for self-hosted 
 Provide one or two options for how would you propose them to change how they save and manage their secrets.
 
 # Solution 
-- [External Secrets Operator](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
-- [HashiCorp Vault](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
-- [SealedSecret](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
-- [SOPS](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
-- [Kamus](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
+- [External Secrets Operator](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/eso/README.md)
+- [HashiCorp Vault](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/vault/README.md)
+- [SealedSecret](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/sealed-secrets/README.md)
+- [SOPS](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/sops/README.md)
+- [Kamus](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/kamus/README.md)
 - [Tesoro](https://github.com/rustamsariyev/manage-secrets-k8s/blob/main/README.md)
